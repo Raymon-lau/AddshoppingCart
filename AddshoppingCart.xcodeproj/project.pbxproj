@@ -15,6 +15,7 @@
 		8DB75B5B1D3E21C600AC20CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB75B591D3E21C600AC20CA /* LaunchScreen.storyboard */; };
 		8DB75B661D3E21C600AC20CA /* AddshoppingCartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB75B651D3E21C600AC20CA /* AddshoppingCartTests.m */; };
 		8DB75B711D3E21C600AC20CA /* AddshoppingCartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB75B701D3E21C600AC20CA /* AddshoppingCartUITests.m */; };
+		8DB75B801D3E22B100AC20CA /* UIButton+touch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB75B7F1D3E22B100AC20CA /* UIButton+touch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8DB75B6C1D3E21C600AC20CA /* AddshoppingCartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddshoppingCartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB75B701D3E21C600AC20CA /* AddshoppingCartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddshoppingCartUITests.m; sourceTree = "<group>"; };
 		8DB75B721D3E21C600AC20CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DB75B7E1D3E22B100AC20CA /* UIButton+touch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+touch.h"; sourceTree = "<group>"; };
+		8DB75B7F1D3E22B100AC20CA /* UIButton+touch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+touch.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				8DB75B4F1D3E21C600AC20CA /* AppDelegate.m */,
 				8DB75B511D3E21C600AC20CA /* ViewController.h */,
 				8DB75B521D3E21C600AC20CA /* ViewController.m */,
+				8DB75B7E1D3E22B100AC20CA /* UIButton+touch.h */,
+				8DB75B7F1D3E22B100AC20CA /* UIButton+touch.m */,
 				8DB75B541D3E21C600AC20CA /* Main.storyboard */,
 				8DB75B571D3E21C600AC20CA /* Assets.xcassets */,
 				8DB75B591D3E21C600AC20CA /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				8DB75B531D3E21C600AC20CA /* ViewController.m in Sources */,
 				8DB75B501D3E21C600AC20CA /* AppDelegate.m in Sources */,
 				8DB75B4D1D3E21C600AC20CA /* main.m in Sources */,
+				8DB75B801D3E22B100AC20CA /* UIButton+touch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AddshoppingCart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Raymon.AddshoppingCart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +434,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AddshoppingCart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Raymon.AddshoppingCart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
